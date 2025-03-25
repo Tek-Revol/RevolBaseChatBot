@@ -312,7 +312,7 @@ def chat_page():
     Gets user_id from query parameters if available and uses it for document access.
     If user_id is not in query parameters, shows access denied message.
     """
-    st.title("RevolBase Chatbot")
+    st.title("Personlized AI. Project Insights")
     
     # Get user_id from query parameters if available
     query_params = st.query_params
