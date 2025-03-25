@@ -71,6 +71,7 @@ def sanitize_customer_id(customer_id):
     Returns:
         str or None: Sanitized customer ID if valid, None otherwise
     """
+    
     if re.match(r"^[a-zA-Z0-9_-]+$", customer_id):
         return customer_id
     logger.warning(f"Invalid customer ID: {customer_id}")
